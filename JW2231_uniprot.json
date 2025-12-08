@@ -1,0 +1,789 @@
+{
+    "results": [
+        {
+            "entryType": "UniProtKB reviewed (Swiss-Prot)",
+            "primaryAccession": "P27294",
+            "secondaryAccessions": [
+                "P77545"
+            ],
+            "uniProtkbId": "INAA_ECOLI",
+            "entryAudit": {
+                "firstPublicDate": "1992-08-01",
+                "lastAnnotationUpdateDate": "2025-06-18",
+                "lastSequenceUpdateDate": "1997-11-01",
+                "entryVersion": 149,
+                "sequenceVersion": 3
+            },
+            "annotationScore": 2.0,
+            "organism": {
+                "scientificName": "Escherichia coli (strain K12)",
+                "taxonId": 83333,
+                "lineage": [
+                    "Bacteria",
+                    "Pseudomonadati",
+                    "Pseudomonadota",
+                    "Gammaproteobacteria",
+                    "Enterobacterales",
+                    "Enterobacteriaceae",
+                    "Escherichia"
+                ]
+            },
+            "proteinExistence": "1: Evidence at protein level",
+            "proteinDescription": {
+                "recommendedName": {
+                    "fullName": {
+                        "value": "Protein InaA"
+                    }
+                }
+            },
+            "genes": [
+                {
+                    "geneName": {
+                        "value": "inaA"
+                    },
+                    "synonyms": [
+                        {
+                            "value": "yfaG"
+                        }
+                    ],
+                    "orderedLocusNames": [
+                        {
+                            "value": "b2237"
+                        },
+                        {
+                            "value": "JW2231"
+                        }
+                    ]
+                }
+            ],
+            "comments": [
+                {
+                    "texts": [
+                        {
+                            "value": "May be an environmental sensor responsive to several stimuli, including internal pH, proton motive force, temperature, and possibly other unknown factors"
+                        }
+                    ],
+                    "commentType": "FUNCTION"
+                },
+                {
+                    "texts": [
+                        {
+                            "value": "By several factors in addition of internal pH"
+                        }
+                    ],
+                    "commentType": "INDUCTION"
+                },
+                {
+                    "texts": [
+                        {
+                            "evidences": [
+                                {
+                                    "evidenceCode": "ECO:0000305"
+                                }
+                            ],
+                            "value": "Belongs to the protein kinase superfamily. KdkA/RfaP family"
+                        }
+                    ],
+                    "commentType": "SIMILARITY"
+                },
+                {
+                    "commentType": "SEQUENCE CAUTION",
+                    "sequenceCautionType": "Frameshift",
+                    "sequence": "K02672",
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0000305"
+                        }
+                    ]
+                }
+            ],
+            "features": [
+                {
+                    "type": "Chain",
+                    "location": {
+                        "start": {
+                            "value": 1,
+                            "modifier": "EXACT"
+                        },
+                        "end": {
+                            "value": 216,
+                            "modifier": "EXACT"
+                        }
+                    },
+                    "description": "Protein InaA",
+                    "featureId": "PRO_0000084193"
+                }
+            ],
+            "keywords": [
+                {
+                    "id": "KW-1185",
+                    "category": "Technical term",
+                    "name": "Reference proteome"
+                }
+            ],
+            "references": [
+                {
+                    "referenceNumber": 1,
+                    "citation": {
+                        "id": "6087316",
+                        "citationType": "journal article",
+                        "authors": [
+                            "Carlson J.",
+                            "Fuchs J.A.",
+                            "Messing J."
+                        ],
+                        "citationCrossReferences": [
+                            {
+                                "database": "PubMed",
+                                "id": "6087316"
+                            },
+                            {
+                                "database": "DOI",
+                                "id": "10.1073/pnas.81.14.4294"
+                            }
+                        ],
+                        "title": "Primary structure of the Escherichia coli ribonucleoside diphosphate reductase operon.",
+                        "publicationDate": "1984",
+                        "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+                        "firstPage": "4294",
+                        "lastPage": "4297",
+                        "volume": "81"
+                    },
+                    "referencePositions": [
+                        "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+                    ]
+                },
+                {
+                    "referenceNumber": 2,
+                    "citation": {
+                        "id": "9205837",
+                        "citationType": "journal article",
+                        "authors": [
+                            "Yamamoto Y.",
+                            "Aiba H.",
+                            "Baba T.",
+                            "Hayashi K.",
+                            "Inada T.",
+                            "Isono K.",
+                            "Itoh T.",
+                            "Kimura S.",
+                            "Kitagawa M.",
+                            "Makino K.",
+                            "Miki T.",
+                            "Mitsuhashi N.",
+                            "Mizobuchi K.",
+                            "Mori H.",
+                            "Nakade S.",
+                            "Nakamura Y.",
+                            "Nashimoto H.",
+                            "Oshima T.",
+                            "Oyama S.",
+                            "Saito N.",
+                            "Sampei G.",
+                            "Satoh Y.",
+                            "Sivasundaram S.",
+                            "Tagami H.",
+                            "Takahashi H.",
+                            "Takeda J.",
+                            "Takemoto K.",
+                            "Uehara K.",
+                            "Wada C.",
+                            "Yamagata S.",
+                            "Horiuchi T."
+                        ],
+                        "citationCrossReferences": [
+                            {
+                                "database": "PubMed",
+                                "id": "9205837"
+                            },
+                            {
+                                "database": "DOI",
+                                "id": "10.1093/dnares/4.2.91"
+                            }
+                        ],
+                        "title": "Construction of a contiguous 874-kb sequence of the Escherichia coli-K12 genome corresponding to 50.0-68.8 min on the linkage map and analysis of its sequence features.",
+                        "publicationDate": "1997",
+                        "journal": "DNA Res.",
+                        "firstPage": "91",
+                        "lastPage": "113",
+                        "volume": "4"
+                    },
+                    "referencePositions": [
+                        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+                    ],
+                    "referenceComments": [
+                        {
+                            "value": "K12 / W3110 / ATCC 27325 / DSM 5911",
+                            "type": "STRAIN"
+                        }
+                    ]
+                },
+                {
+                    "referenceNumber": 3,
+                    "citation": {
+                        "id": "9278503",
+                        "citationType": "journal article",
+                        "authors": [
+                            "Blattner F.R.",
+                            "Plunkett G. III",
+                            "Bloch C.A.",
+                            "Perna N.T.",
+                            "Burland V.",
+                            "Riley M.",
+                            "Collado-Vides J.",
+                            "Glasner J.D.",
+                            "Rode C.K.",
+                            "Mayhew G.F.",
+                            "Gregor J.",
+                            "Davis N.W.",
+                            "Kirkpatrick H.A.",
+                            "Goeden M.A.",
+                            "Rose D.J.",
+                            "Mau B.",
+                            "Shao Y."
+                        ],
+                        "citationCrossReferences": [
+                            {
+                                "database": "PubMed",
+                                "id": "9278503"
+                            },
+                            {
+                                "database": "DOI",
+                                "id": "10.1126/science.277.5331.1453"
+                            }
+                        ],
+                        "title": "The complete genome sequence of Escherichia coli K-12.",
+                        "publicationDate": "1997",
+                        "journal": "Science",
+                        "firstPage": "1453",
+                        "lastPage": "1462",
+                        "volume": "277"
+                    },
+                    "referencePositions": [
+                        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+                    ],
+                    "referenceComments": [
+                        {
+                            "value": "K12 / MG1655 / ATCC 47076",
+                            "type": "STRAIN"
+                        }
+                    ]
+                },
+                {
+                    "referenceNumber": 4,
+                    "citation": {
+                        "id": "16738553",
+                        "citationType": "journal article",
+                        "authors": [
+                            "Hayashi K.",
+                            "Morooka N.",
+                            "Yamamoto Y.",
+                            "Fujita K.",
+                            "Isono K.",
+                            "Choi S.",
+                            "Ohtsubo E.",
+                            "Baba T.",
+                            "Wanner B.L.",
+                            "Mori H.",
+                            "Horiuchi T."
+                        ],
+                        "citationCrossReferences": [
+                            {
+                                "database": "PubMed",
+                                "id": "16738553"
+                            },
+                            {
+                                "database": "DOI",
+                                "id": "10.1038/msb4100049"
+                            }
+                        ],
+                        "title": "Highly accurate genome sequences of Escherichia coli K-12 strains MG1655 and W3110.",
+                        "publicationDate": "2006",
+                        "journal": "Mol. Syst. Biol.",
+                        "firstPage": "E1",
+                        "lastPage": "E5",
+                        "volume": "2"
+                    },
+                    "referencePositions": [
+                        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+                    ],
+                    "referenceComments": [
+                        {
+                            "value": "K12 / W3110 / ATCC 27325 / DSM 5911",
+                            "type": "STRAIN"
+                        }
+                    ]
+                },
+                {
+                    "referenceNumber": 5,
+                    "citation": {
+                        "id": "1537798",
+                        "citationType": "journal article",
+                        "authors": [
+                            "White S.",
+                            "Tuttle F.E.",
+                            "Blankenhorn D.",
+                            "Dosch D.C.",
+                            "Slonczewski J.L."
+                        ],
+                        "citationCrossReferences": [
+                            {
+                                "database": "PubMed",
+                                "id": "1537798"
+                            },
+                            {
+                                "database": "DOI",
+                                "id": "10.1128/jb.174.5.1537-1543.1992"
+                            }
+                        ],
+                        "title": "pH dependence and gene structure of inaA in Escherichia coli.",
+                        "publicationDate": "1992",
+                        "journal": "J. Bacteriol.",
+                        "firstPage": "1537",
+                        "lastPage": "1543",
+                        "volume": "174"
+                    },
+                    "referencePositions": [
+                        "CHARACTERIZATION"
+                    ]
+                }
+            ],
+            "uniProtKBCrossReferences": [
+                {
+                    "database": "EMBL",
+                    "id": "K02672",
+                    "properties": [
+                        {
+                            "key": "ProteinId",
+                            "value": "-"
+                        },
+                        {
+                            "key": "Status",
+                            "value": "NOT_ANNOTATED_CDS"
+                        },
+                        {
+                            "key": "MoleculeType",
+                            "value": "Genomic_DNA"
+                        }
+                    ]
+                },
+                {
+                    "database": "EMBL",
+                    "id": "U00096",
+                    "properties": [
+                        {
+                            "key": "ProteinId",
+                            "value": "AAC75297.1"
+                        },
+                        {
+                            "key": "Status",
+                            "value": "-"
+                        },
+                        {
+                            "key": "MoleculeType",
+                            "value": "Genomic_DNA"
+                        }
+                    ]
+                },
+                {
+                    "database": "EMBL",
+                    "id": "AP009048",
+                    "properties": [
+                        {
+                            "key": "ProteinId",
+                            "value": "BAA16056.1"
+                        },
+                        {
+                            "key": "Status",
+                            "value": "-"
+                        },
+                        {
+                            "key": "MoleculeType",
+                            "value": "Genomic_DNA"
+                        }
+                    ]
+                },
+                {
+                    "database": "PIR",
+                    "id": "C64994",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "C64994"
+                        }
+                    ]
+                },
+                {
+                    "database": "RefSeq",
+                    "id": "NP_416740.1",
+                    "properties": [
+                        {
+                            "key": "NucleotideSequenceId",
+                            "value": "NC_000913.3"
+                        }
+                    ]
+                },
+                {
+                    "database": "RefSeq",
+                    "id": "WP_000301050.1",
+                    "properties": [
+                        {
+                            "key": "NucleotideSequenceId",
+                            "value": "NZ_LN832404.1"
+                        }
+                    ]
+                },
+                {
+                    "database": "AlphaFoldDB",
+                    "id": "P27294",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "SMR",
+                    "id": "P27294",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "BioGRID",
+                    "id": "4260494",
+                    "properties": [
+                        {
+                            "key": "Interactions",
+                            "value": "30"
+                        }
+                    ]
+                },
+                {
+                    "database": "FunCoup",
+                    "id": "P27294",
+                    "properties": [
+                        {
+                            "key": "Number of interactors",
+                            "value": "50"
+                        }
+                    ]
+                },
+                {
+                    "database": "IntAct",
+                    "id": "P27294",
+                    "properties": [
+                        {
+                            "key": "Interactions",
+                            "value": "13"
+                        }
+                    ]
+                },
+                {
+                    "database": "STRING",
+                    "id": "511145.b2237",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "PaxDb",
+                    "id": "511145-b2237",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "EnsemblBacteria",
+                    "id": "AAC75297",
+                    "properties": [
+                        {
+                            "key": "ProteinId",
+                            "value": "AAC75297"
+                        },
+                        {
+                            "key": "GeneId",
+                            "value": "b2237"
+                        }
+                    ]
+                },
+                {
+                    "database": "GeneID",
+                    "id": "946731",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "KEGG",
+                    "id": "ecj:JW2231",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "KEGG",
+                    "id": "eco:b2237",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "KEGG",
+                    "id": "ecoc:C3026_12500",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "PATRIC",
+                    "id": "fig|511145.12.peg.2326",
+                    "properties": [
+                        {
+                            "key": "GeneDesignation",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "EchoBASE",
+                    "id": "EB1392",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "eggNOG",
+                    "id": "COG3642",
+                    "properties": [
+                        {
+                            "key": "ToxonomicScope",
+                            "value": "Bacteria"
+                        }
+                    ]
+                },
+                {
+                    "database": "HOGENOM",
+                    "id": "CLU_094468_0_0_6",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "InParanoid",
+                    "id": "P27294",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "OMA",
+                    "id": "WVEEPNQ",
+                    "properties": [
+                        {
+                            "key": "Fingerprint",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "OrthoDB",
+                    "id": "5405319at2",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "PhylomeDB",
+                    "id": "P27294",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "BioCyc",
+                    "id": "EcoCyc:EG11422-MONOMER",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "PRO",
+                    "id": "PR:P27294",
+                    "properties": [
+                        {
+                            "key": "Description",
+                            "value": "-"
+                        }
+                    ]
+                },
+                {
+                    "database": "Proteomes",
+                    "id": "UP000000625",
+                    "properties": [
+                        {
+                            "key": "Component",
+                            "value": "Chromosome"
+                        }
+                    ]
+                },
+                {
+                    "database": "GO",
+                    "id": "GO:0005886",
+                    "properties": [
+                        {
+                            "key": "GoTerm",
+                            "value": "C:plasma membrane"
+                        },
+                        {
+                            "key": "GoEvidenceType",
+                            "value": "HDA:EcoCyc"
+                        }
+                    ],
+                    "evidences": [
+                        {
+                            "evidenceCode": "ECO:0007005",
+                            "source": "PubMed",
+                            "id": "32127419"
+                        }
+                    ]
+                },
+                {
+                    "database": "InterPro",
+                    "id": "IPR011009",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "Kinase-like_dom_sf"
+                        }
+                    ]
+                },
+                {
+                    "database": "InterPro",
+                    "id": "IPR027023",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "Put_LipoPS_kinase_InaA"
+                        }
+                    ]
+                },
+                {
+                    "database": "NCBIfam",
+                    "id": "NF007383",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "PRK09902.1"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "Pfam",
+                    "id": "PF06293",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "Kdo"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "PIRSF",
+                    "id": "PIRSF026326",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "InaA"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                },
+                {
+                    "database": "SUPFAM",
+                    "id": "SSF56112",
+                    "properties": [
+                        {
+                            "key": "EntryName",
+                            "value": "Protein kinase-like (PK-like)"
+                        },
+                        {
+                            "key": "MatchStatus",
+                            "value": "1"
+                        }
+                    ]
+                }
+            ],
+            "sequence": {
+                "value": "MAVSAKYDEFNHWWATEGDWVEEPNYRRNGMSGVQCVERNGKKLYVKRMTHHLFHSVRYPFGRPTIVREVAVIKELERAGVIVPKIVFGEAVKIEGEWRALLVTEDMAGFISIADWYAQHAVSPYSDEVRQAMLKAVALAFKKMHSINRQHGCCYVRHIYVKTEGNAEAGFLDLEKSRRRLRRDKAINHDFRQLEKYLEPIPKADWEQVKAYYYAM",
+                "length": 216,
+                "molWeight": 25296,
+                "crc64": "49B8E72F553113FD",
+                "md5": "B5EC566BFBE36672B78744D86C0B9E27"
+            },
+            "extraAttributes": {
+                "countByCommentType": {
+                    "FUNCTION": 1,
+                    "INDUCTION": 1,
+                    "SIMILARITY": 1,
+                    "SEQUENCE CAUTION": 1
+                },
+                "countByFeatureType": {
+                    "Chain": 1
+                },
+                "uniParcId": "UPI000012D645"
+            }
+        }
+    ]
+}
